@@ -4,12 +4,7 @@ Repository ini berisi kode program (firmware) untuk sistem akuisisi sinyal
 **Photoplethysmography (PPG)** berbasis **Arduino Uno**, **Pulse Sensor**, dan
 **OLED Display (SSD1306)**. Sistem ini digunakan untuk mengukur **Heart Rate (HR)**
 dan estimasi **Heart Rate Variability (HRV)** berbasis metode RMSSD secara
-*real-time*, sebagai bagian dari penelitian skripsi:
-
-> **Perbandingan Pengaruh Genre Musik Berbeda terhadap Respons Fisiologis
-> yang Berkaitan dengan Stres Menggunakan PPG (Photoplethysmography)**
-> Dinda Rahma Annisah — Program Studi Teknik Komputer,
-> Fakultas Ilmu Komputer, Universitas Brawijaya (2026)
+*real-time*
 
 ## Struktur Repository
 

@@ -11,12 +11,6 @@
   - Menampilkan grafik gelombang sinyal serta nilai HR/HRV pada OLED
   - Mengirim data mentah (waktu, amplitudo) melalui Serial untuk
     disimpan dan diolah lebih lanjut (mis. di MATLAB)
-
-  Bagian dari penelitian:
-  "Perbandingan Pengaruh Genre Musik Berbeda terhadap Respons
-  Fisiologis yang Berkaitan dengan Stres Menggunakan PPG"
-  Dinda Rahma Annisah - Program Studi Teknik Komputer,
-  Fakultas Ilmu Komputer, Universitas Brawijaya
   ---------------------------------------------------------------
 */
 

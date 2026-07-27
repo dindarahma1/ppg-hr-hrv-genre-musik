@@ -1,17 +1,5 @@
 %% ============================================================
 %  SKRIP 1: PEMROSESAN & FILTERING SINYAL PPG
-%  Judul Skripsi : Perbandingan Pengaruh Genre Musik terhadap
-%                  Respons Fisiologis menggunakan PPG
-%  Parameter     : HR dan HRV dari Arduino Uno + Pulse Sensor
-%
-%  Tahapan:
-%   1. Import data mentah (Time, Signal)
-%   2. Resample ke fs tetap = 20 Hz
-%   3. Detrending + normalisasi Z-score
-%   4. Analisis noise: FFT & SNR (sebelum filter)
-%   5. Filtering: Bandpass Butterworth orde 4 (0.5-5 Hz)
-%   6. SNR sesudah filter
-%   7. Simpan workspace -> dipakai skrip 02
 % ============================================================
 
 clear; clc; close all;
@@ -203,4 +191,3 @@ save('ppg_workspace.mat', 'nama_file','time_ms','time_s','ppg_raw','ppg_detrend'
      'f_low','f_high','orde_filter','b','a','baseline');
 
 fprintf('\n[SKRIP 1 SELESAI] Workspace disimpan: ppg_workspace.mat\n');
-fprintf('Lanjutkan ke: 02_Deteksi_Peak_HRV_dan_Laporan.m\n');

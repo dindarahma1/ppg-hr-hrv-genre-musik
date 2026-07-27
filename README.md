@@ -15,8 +15,8 @@ dan estimasi **Heart Rate Variability (HRV)** berbasis metode RMSSD secara
 │   ├── 01_Pemrosesan_dan_Filtering_PPG.m       # Tahap 1: import, resample, filter Butterworth
 │   └── 02_Deteksi_Peak_HRV_dan_Laporan.m       # Tahap 2: deteksi peak, HR, HRV, laporan
 ├── docs/
-│   └── wiring.md                    # Skema pengkabelan komponen
-├── LICENSE
+│   └── wiring.md
+|   └── wiring_diagram.png      # Skema pengkabelan komponen
 └── README.md
 ```
 
@@ -91,8 +91,3 @@ melalui dua skrip MATLAB pada folder `analysis/`:
    file yang ingin diproses, lalu jalankan skrip tersebut.
 3. Jalankan `02_Deteksi_Peak_HRV_dan_Laporan.m` untuk mendapatkan nilai HR,
    HRV (SDNN, RMSSD, pNN50, CV), serta figure dan tabel hasil analisis.
-
-## Lisensi
-
-Kode program pada repository ini dirilis di bawah lisensi MIT — lihat
-[`LICENSE`](LICENSE) untuk detail.

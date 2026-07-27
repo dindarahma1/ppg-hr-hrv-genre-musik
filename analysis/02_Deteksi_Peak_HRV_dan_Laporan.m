@@ -1,21 +1,3 @@
-%% ============================================================
-%  SKRIP 2: DETEKSI PEAK, HITUNG HR & HRV, LAPORAN FINAL
-%  (gabungan skrip deteksi peak + visualisasi/tabel laporan)
-%
-%  Prasyarat: jalankan 01_Pemrosesan_dan_Filtering_PPG.m lebih dulu
-%             (menghasilkan ppg_workspace.mat)
-%
-%  Tahapan:
-%   1. Deteksi peak sistolik (findpeaks)
-%   2. Hitung interval RR & filter RR yang tidak fisiologis
-%   3. Hitung Heart Rate (HR)
-%   4. Hitung HRV domain waktu: SDNN, RMSSD, pNN50, CV
-%   5. Figure A - Pipeline 4 panel (raw -> preprocessed -> filtered -> peak/RR)
-%   6. Figure B - Spektrum FFT sebelum vs sesudah filter
-%   7. Figure C - Distribusi HR instantaneous
-%   8. Tabel ringkasan hasil (Command Window + file .txt)
-% ============================================================
-
 clear; clc; close all;
 load('ppg_workspace.mat');
 
